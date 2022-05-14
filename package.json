@@ -1,0 +1,22 @@
+{
+  "name": "vue-stage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "rollup": "^2.70.2",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "dependencies": {
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
